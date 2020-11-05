@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', Sans-Serif;
+}
+
+header {
+  padding: 5px 1em;
+  background: #efefef;
+}
+
+article {
+  padding: 5px 1em;
+}
+
+article h2 {
+  padding: 1em;
+}
+
+article p {
+  padding: 1em;
+}
+
+.card-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.card {
+  background: #efefef;
+  padding: 2em;
+  max-width: 300px;
+  max-height: 550px;
+  margin: 1em;
+}
+
+.card .card-image {
+  width: 300px;
+  height: 200px;
+  background: url("https://picsum.photos/300/?grayscale&blur=2");
+  background-origin: cover;
+}
+
+.card .card-heading {
+  padding: 1em;
+  font-size:25px;
+}
+
+.card .card-content {
+  font-size: 18px;
+  text-align: center;
+}
+
+ul li {
+  list-style: none;
+  padding: 1em;
+}
+
+a {
+  text-decoration: none;
+}
